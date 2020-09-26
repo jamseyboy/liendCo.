@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_mgmt.firstPage">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/liendo_co"
+        android:layout_marginStart="10dp"
+        android:textSize="50sp"/>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/onlineStoreBtn"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:text="@string/online_store"/>
+        <Button
+            android:id="@+id/videosBtn"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:text="@string/videos"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/musicBtn"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:text="@string/musics"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/storyTellerBtn"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:text="@string/story_teller"
+            android:layout_marginTop="20dp"/>
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="45dp"
+            >
+            <Button
+                android:id="@+id/newsBtn"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:text="@string/news"/>
+            <Button
+                android:id="@+id/liveShopBtn"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:text="@string/live_shop"
+                android:layout_marginTop="20dp"/>
+            <Button
+                android:id="@+id/literatueBtn"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:text="@string/literature"
+                android:layout_marginTop="20dp"/>
+            <Button
+                android:id="@+id/otherBtn"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:text="@string/others"
+                android:layout_marginTop="20dp"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

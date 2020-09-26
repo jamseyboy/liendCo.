@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Liendo</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_address">Enter address</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+    <string name="sign_up">Sign up </string>
+    <string name="Password">Password</string>
+    <string name="ConfirmPasswordSignup">Confirm Password</string>
+    <string name="Login">Login</string>
+    <string name="back">Back</string>
+    <string name="register">Register</string>
+    <string name="Forgot_password">Forgot Password?</string>
+    <string name="help">Help?</string>
+    <string name="email">Email</string>
+    <string name="emailSignup">Email</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="welcome">Welcome to first Page</string>
+
+    <string name="story_teller">Story Teller</string>
+    <string name="musics">Musics</string>
+    <string name="news">News</string>
+    <string name="videos">Videos</string>
+    <string name="live_shop">Live Shop/Works</string>
+    <string name="online_store">Online Store</string>
+    <string name="others">others</string>
+    <string name="literature">Literature</string>
+
+    <string name="liendo_co">LIENDO CO.</string>
+    <string name="sell">Sell</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="upload">Upload</string>
+
+
+</resources>

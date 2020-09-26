@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".onlineStore">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="300dp"
+                android:text="@string/sell"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/chooseBtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/choose_image"/>
+            <Button
+                android:id="@+id/uploadBtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/upload"/>
+            
+            <ImageView
+                android:id="@+id/imgViewOnlineStore"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+            
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+
+</RelativeLayout>
